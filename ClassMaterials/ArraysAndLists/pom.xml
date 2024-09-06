@@ -10,7 +10,7 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>HW1</artifactId>
+    <artifactId>ArraysAndLists</artifactId>
 
     <dependencies>
         <dependency>

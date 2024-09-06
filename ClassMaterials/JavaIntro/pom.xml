@@ -10,9 +10,15 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <artifactId>HW1</artifactId>
+    <artifactId>JavaIntro</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.2.0</version>
+            <scope>test</scope>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

@@ -1,7 +1,14 @@
 ### IntelliJ IDEA ###
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+!src/main/**/out/
+!src/test/**/out/
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
 
 ### Eclipse ###
 .apt_generated
@@ -12,8 +19,8 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+!src/main/**/bin/
+!src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -27,6 +34,9 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
 # Project exclude paths
-/Class/JavaIntro/target/
-/Homework/HW1/target/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
