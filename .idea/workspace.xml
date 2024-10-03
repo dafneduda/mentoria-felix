@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465df95e-b313-49d7-810c-7df87a55aa87" name="Changes" comment="exercises ArrayList">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/CodingBatPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/CodingBatPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/SomeTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/SomeTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/UsingStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/UsingStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/WhackABug.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/WhackABug.java" afterDir="false" />
-    </list>
-    <list id="d3b0fc77-9f20-4c3b-add8-24b09a542027" name="Changes by jbfelix" comment="">
+    <list default="true" id="465df95e-b313-49d7-810c-7df87a55aa87" name="Changes" comment="exercises ArrayList" />
+    <list id="d3b0fc77-9f20-4c3b-add8-24b09a542027" name="Changes by jbfelix" comment="Changes by jbfelix">
       <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/ArrayListFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/ArrayListFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/CodingBatPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/CodingBatPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/test/java/ArrayListFunctionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/test/java/ArrayListFunctionsTest.java" afterDir="false" />
@@ -43,15 +37,6 @@
     &quot;accountId&quot;: &quot;6c6a0883-7567-4133-9fd4-c3cfee09a6d6&quot;
   }
 }</component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/CodingBatPractice.java">
-      <ranges>
-        <range start1="2" end1="2" start2="2" end2="3" changelist="d3b0fc77-9f20-4c3b-add8-24b09a542027" />
-        <range start1="17" end1="17" start2="18" end2="27" changelist="d3b0fc77-9f20-4c3b-add8-24b09a542027" />
-        <range start1="28" end1="30" start2="38" end2="59" changelist="465df95e-b313-49d7-810c-7df87a55aa87" />
-      </ranges>
-    </file>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -205,7 +190,7 @@
       <workItem from="1726100933708" duration="24938000" />
       <workItem from="1727141699244" duration="819000" />
       <workItem from="1727144411370" duration="483000" />
-      <workItem from="1727962244549" duration="3061000" />
+      <workItem from="1727962244549" duration="3385000" />
     </task>
     <task id="LOCAL-00001" summary="exercises ArrayList">
       <option name="closed" value="true" />
@@ -215,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726786791907</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="exercises ArrayList">
+      <option name="closed" value="true" />
+      <created>1727965543555</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727965543555</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +216,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="exercises ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercises ArrayList" />
+    <MESSAGE value="Changes by jbfelix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by jbfelix" />
   </component>
 </project>

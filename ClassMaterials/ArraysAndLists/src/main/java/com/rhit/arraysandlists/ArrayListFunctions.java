@@ -1,6 +1,7 @@
 package com.rhit.arraysandlists;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class ArrayListFunctions {
@@ -32,9 +33,30 @@ public class ArrayListFunctions {
      * so insertIntoSorted([1,5,9],6) yields [1,5,6,9]
      */
     public static void insertIntoSorted(ArrayList<Integer> list, int number) {
+        list.add(number); // O(1)
+        Collections.sort(list); // O(n*log(n)), 100 * 10 = 1000 -> O(n) = 100
 
-        list.add(number);
-        Collections.sort(list);
+//        // O(1)
+//        if (list.isEmpty()) {
+//            // O(1)
+//            list.add(number);
+//            return;
+//        }
+//
+//        // 100 + 100 = 200
+//        for (int indice = 0; indice < list.size() ; indice++) {
+//            // .get(indice) -> 0(1);
+//            // .add(indice, valor) -> O(n);
+//            if (list.get(indice) >= number) {
+//                list.add(indice, number);
+//                return;
+//            }
+//            // O(1)
+//            if (indice == list.size() - 1) {
+//                list.add(number);
+//                return;
+//            }
+//        }
     }
 
     /**
