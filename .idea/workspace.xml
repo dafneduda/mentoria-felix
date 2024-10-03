@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="465df95e-b313-49d7-810c-7df87a55aa87" name="Changes" comment="exercises ArrayList" />
-    <list id="d3b0fc77-9f20-4c3b-add8-24b09a542027" name="Changes by jbfelix" comment="Changes by jbfelix">
-      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/ArrayListFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/ArrayListFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/CodingBatPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/CodingBatPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/test/java/ArrayListFunctionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/test/java/ArrayListFunctionsTest.java" afterDir="false" />
-    </list>
+    <list id="d3b0fc77-9f20-4c3b-add8-24b09a542027" name="Changes by jbfelix" comment="Changes by jbfelix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -190,7 +186,7 @@
       <workItem from="1726100933708" duration="24938000" />
       <workItem from="1727141699244" duration="819000" />
       <workItem from="1727144411370" duration="483000" />
-      <workItem from="1727962244549" duration="3385000" />
+      <workItem from="1727962244549" duration="3690000" />
     </task>
     <task id="LOCAL-00001" summary="exercises ArrayList">
       <option name="closed" value="true" />
@@ -208,15 +204,31 @@
       <option name="project" value="LOCAL" />
       <updated>1727965543555</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changes by jbfelix">
+      <option name="closed" value="true" />
+      <created>1727965679421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727965679421</updated>
+    </task>
+    <task id="LOCAL-00004" summary="exercises ArrayList">
+      <option name="closed" value="true" />
+      <created>1727965893154</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727965893154</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="exercises ArrayList" />
     <MESSAGE value="Changes by jbfelix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by jbfelix" />
+    <MESSAGE value="exercises ArrayList" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercises ArrayList" />
   </component>
 </project>
