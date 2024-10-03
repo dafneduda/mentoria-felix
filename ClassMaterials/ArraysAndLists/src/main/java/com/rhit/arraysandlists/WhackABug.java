@@ -15,10 +15,10 @@ public class WhackABug {
     public static void main(String[] args) {
         // TODO: uncomment call to a buggy method, use debugger to find the bug, repeat
 
-//        hasABug1();
-//        hasABug2();
+        hasABug1();
+        hasABug2();
         hasABug3();
-//        hasABug4();
+        hasABug4();
     }
 
     /*
@@ -54,14 +54,12 @@ public class WhackABug {
         final double STEP_SIZE = Math.toRadians(STEP_SIZE_DEG);
 
         System.out.printf("Values of cosine, every %.2f*pi radians:%n", STEP_SIZE / Math.PI);
-
         double angle = 0.0;
         while (angle <= Math.PI * 2.0) {
             double coef = angle / Math.PI;
             double value = Math.cos(angle);
-            angle++; // não tinha controle e estava em looping infinito
+            angle += STEP_SIZE; // não tinha controle e estava em looping infinito
             System.out.printf("cos(%4.2f*pi) = %4.2f%n", coef, value);
-
         }
     }
 
@@ -73,7 +71,7 @@ public class WhackABug {
 
         System.out.println("Rounding errors when counting by tenths:");
 
-        for (double d = 0.0; d != 1.0; d += 0.1) {
+        for (double d = 0.0; d <= 1.0; d += 0.1) {
             System.out.printf("%1.1f is actually %s%n", d, d);
         }
     }
@@ -85,7 +83,7 @@ public class WhackABug {
         // TODO: find the bug, add comment saying what it was, fix the bug
 
         String msg = "Rose";
-        // estava com excecao por ultrapassar o tamanho do array, coloquei msg.length()-1 e foi
+        // estava com excecao por ultrapassar o tamanho do array, coloquei msg.length()-1
         for (int i = 0; i <= msg.length()-1; i++) {
             System.out.printf("Character %d: %c%n", i, msg.charAt(i));
         }

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HW1" />
         <module name="JavaIntro" />
+        <module name="TwoDArraysAndMaps" />
         <module name="ArraysAndLists" />
       </profile>
     </annotationProcessing>

@@ -11,6 +11,7 @@
     <modules>
         <module>ClassMaterials/ArraysAndLists</module>
         <module>ClassMaterials/JavaIntro</module>
+        <module>ClassMaterials/TwoDArraysAndMaps</module>
         <module>Homework/HW1</module>
     </modules>
 

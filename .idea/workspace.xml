@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="465df95e-b313-49d7-810c-7df87a55aa87" name="Changes" comment="exercises ArrayList" />
-    <list id="d3b0fc77-9f20-4c3b-add8-24b09a542027" name="Changes by jbfelix" comment="Changes by jbfelix" />
+    <list default="true" id="465df95e-b313-49d7-810c-7df87a55aa87" name="Changes" comment="exercises ArrayList">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/SomeTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/SomeTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/UsingStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/UsingStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/WhackABug.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/WhackABug.java" afterDir="false" />
+    </list>
+    <list id="d3b0fc77-9f20-4c3b-add8-24b09a542027" name="Changes by jbfelix" comment="Changes by jbfelix">
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/SomeTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/SomeTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/VariableScopeAndBreakExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/VariableScopeAndBreakExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/WhackABug.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/WhackABug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +45,28 @@
     &quot;accountId&quot;: &quot;6c6a0883-7567-4133-9fd4-c3cfee09a6d6&quot;
   }
 }</component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/SomeTypes.java">
+      <ranges>
+        <range start1="19" end1="20" start2="19" end2="20" changelist="d3b0fc77-9f20-4c3b-add8-24b09a542027" />
+        <range start1="22" end1="23" start2="22" end2="23" changelist="465df95e-b313-49d7-810c-7df87a55aa87" />
+        <range start1="26" end1="27" start2="26" end2="27" changelist="d3b0fc77-9f20-4c3b-add8-24b09a542027" />
+        <range start1="29" end1="30" start2="29" end2="30" changelist="d3b0fc77-9f20-4c3b-add8-24b09a542027" />
+        <range start1="40" end1="42" start2="40" end2="42" changelist="d3b0fc77-9f20-4c3b-add8-24b09a542027" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/WhackABug.java">
+      <ranges>
+        <range start1="17" end1="19" start2="17" end2="19" changelist="d3b0fc77-9f20-4c3b-add8-24b09a542027" />
+        <range start1="20" end1="21" start2="20" end2="21" changelist="d3b0fc77-9f20-4c3b-add8-24b09a542027" />
+        <range start1="56" end1="57" start2="56" end2="56" changelist="d3b0fc77-9f20-4c3b-add8-24b09a542027" />
+        <range start1="61" end1="62" start2="60" end2="61" changelist="d3b0fc77-9f20-4c3b-add8-24b09a542027" />
+        <range start1="63" end1="64" start2="62" end2="62" changelist="d3b0fc77-9f20-4c3b-add8-24b09a542027" />
+        <range start1="75" end1="76" start2="73" end2="74" changelist="d3b0fc77-9f20-4c3b-add8-24b09a542027" />
+        <range start1="87" end1="88" start2="85" end2="86" changelist="465df95e-b313-49d7-810c-7df87a55aa87" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -48,6 +82,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CodingBatPractice.executor": "Run",
+    "Application.FriendMapDemo.executor": "Run",
     "Application.SomeTypes.executor": "Run",
     "Application.Teste.executor": "Run",
     "Application.UsingStrings.executor": "Run",
@@ -88,13 +123,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WhackABug">
-    <configuration name="CodingBatPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rhit.arraysandlists.CodingBatPractice" />
-      <module name="ArraysAndLists" />
+  <component name="RunManager" selected="Application.FriendMapDemo">
+    <configuration name="FriendMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dafneduda.twodarraysandmaps.FriendMapDemo" />
+      <module name="TwoDArraysAndMaps" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rhit.arraysandlists.*" />
+          <option name="PATTERN" value="com.dafneduda.twodarraysandmaps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FriendMapDemo" />
         <item itemvalue="Application.WhackABug" />
         <item itemvalue="Application.VariableScopeAndBreakExamples" />
         <item itemvalue="Application.UsingStrings" />
         <item itemvalue="Application.SomeTypes" />
-        <item itemvalue="Application.CodingBatPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +221,7 @@
       <workItem from="1726100933708" duration="24938000" />
       <workItem from="1727141699244" duration="819000" />
       <workItem from="1727144411370" duration="483000" />
-      <workItem from="1727962244549" duration="3690000" />
+      <workItem from="1727962244549" duration="9900000" />
     </task>
     <task id="LOCAL-00001" summary="exercises ArrayList">
       <option name="closed" value="true" />
@@ -225,6 +260,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes by jbfelix" />

@@ -17,17 +17,17 @@ public class SomeTypes {
      * @param args Command-line arguments, ignored here
      */
     public static void main(String[] args) {
-        // TODO: change the types below and in factorial() to avoid integer overflow
+        // DONE: change the types below and in factorial() to avoid integer overflow
         System.out.println("Factorial");
         for (int i = 1; i < SomeTypes.MAX; i++) {
-            int fact = SomeTypes.factorial(i);
+            long fact = SomeTypes.factorial(i);
             System.out.printf("%3d %16d\n", i, fact);
         }
 
-        // TODO in class: change the types below to actual reciprocals.
+        // DONE in class: change the types below to actual reciprocals.
         System.out.println("\n\nReciprocal");
         for (int i = 1; i < SomeTypes.MAX; i++) {
-            double recip = 1 / i;
+            double recip = 1.0 / i;
             System.out.printf("%3d %7f\n", i, recip);
         }
     }
@@ -38,8 +38,8 @@ public class SomeTypes {
      * @param n
      * @return the factorial of the given value, n.
      */
-    private static int factorial(int n) {
-        int product = 1;
+    private static long factorial(int n) {
+        long product = 1;
 
         for (int j = 2; j <= n; j++) {
             product = product * j;
