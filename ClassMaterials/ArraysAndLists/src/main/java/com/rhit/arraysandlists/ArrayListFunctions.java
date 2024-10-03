@@ -33,6 +33,7 @@ public class ArrayListFunctions {
      * so insertIntoSorted([1,5,9],6) yields [1,5,6,9]
      */
     public static void insertIntoSorted(ArrayList<Integer> list, int number) {
+
         list.add(number); // O(1)
         Collections.sort(list); // O(n*log(n)), 100 * 10 = 1000 -> O(n) = 100
 

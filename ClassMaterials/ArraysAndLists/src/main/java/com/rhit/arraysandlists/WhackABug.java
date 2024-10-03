@@ -38,7 +38,7 @@ public class WhackABug {
             System.out.printf("%d ^ %d = %3d%n", base, exp, power);
             exp++;
 
-        // precisa decrementar para não entrar em loop infinito
+        // precisa decrementar, para não entrar em loop infinito pois numberToPrint=10
             numberToPrint--;
 
         }
@@ -59,7 +59,7 @@ public class WhackABug {
         while (angle <= Math.PI * 2.0) {
             double coef = angle / Math.PI;
             double value = Math.cos(angle);
-            angle++; //não tinha controle e estava em looping infinito
+            angle++; // não tinha controle e estava em looping infinito
             System.out.printf("cos(%4.2f*pi) = %4.2f%n", coef, value);
 
         }
@@ -85,7 +85,7 @@ public class WhackABug {
         // TODO: find the bug, add comment saying what it was, fix the bug
 
         String msg = "Rose";
-        // estava com excecao por ultrapassar o tamanho do array, coloquei msg.length()-1
+        // estava com excecao por ultrapassar o tamanho do array, coloquei msg.length()-1 e foi
         for (int i = 0; i <= msg.length()-1; i++) {
             System.out.printf("Character %d: %c%n", i, msg.charAt(i));
         }

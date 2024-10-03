@@ -22,20 +22,25 @@ public class UsingStrings {
         System.out.println("'" + name + "' has " + nameLength + " characters");
 
         // TODO: print Bob's name, major and age.
+
         System.out.println(name + " is " + major + " and is " + age + " years old.");
 
         // TODO: Use the replace() method of String to replace "Party Game" with "Celebration Entertainment" in Bob's major.
+
         String replaceMajor = major.replace("Party Game","Celebration Entertainment");
         System.out.println(replaceMajor);
 
         // TODO: print Bob's name, major, and age again.
+
         System.out.println(name + " is " + replaceMajor + " and is " + age + " years old.");
 
         // TODO: Change Bob's major again, this time to be in all uppercase. Use the toUpperCase() method of String.
+
         String upperCaseMajor = replaceMajor.toUpperCase();
         System.out.println(upperCaseMajor);
 
         // TODO: print Bob's name, major, and age again.
+
         System.out.println(name + " is " + upperCaseMajor + " and is " + age + " years old.");
 
     }

@@ -46,6 +46,7 @@ public class CodingBatPractice {
             array[indice] = array[indice - 1] + 1;
         }
 
+
         return array;
 
 //        Usando ArrayList:
