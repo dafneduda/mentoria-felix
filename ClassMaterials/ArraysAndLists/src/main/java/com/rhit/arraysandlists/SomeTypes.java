@@ -27,7 +27,7 @@ public class SomeTypes {
         // TODO in class: change the types below to actual reciprocals.
         System.out.println("\n\nReciprocal");
         for (int i = 1; i < SomeTypes.MAX; i++) {
-            int recip = 1 / i;
+            double recip = 1 / i;
             System.out.printf("%3d %7f\n", i, recip);
         }
     }

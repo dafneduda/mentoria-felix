@@ -26,8 +26,27 @@ public class CodingBatPractice {
      * static       = because main is static (we will learn about static more later in the course)
      */
     public static int[] fizzArray3(int start, int end) {
-        //TODO finish this method
-        return null;
+        // How to initialize an array in Java? https://sentry.io/answers/java-initialize-array/
+        if (end - start == 0) return new int[0];
+
+        int[] array = new int[end - start];
+        array[0] = start;
+
+        for (int indice = 1; indice < array.length; indice++){
+            array[indice] = array[indice - 1] + 1;
+        }
+
+        return array;
+
+//        Usando ArrayList:
+//
+//        ArrayList<Integer> result = new ArrayList<>();
+//
+//        for (int number = start; number < end; number++) {
+//            result.add(number);
+//        }
+//
+//        return result.stream().mapToInt(Integer::intValue).toArray();
     }
 
     //TODO make additional methods here to test out
