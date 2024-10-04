@@ -1,8 +1,8 @@
 package com.dafneduda.twodarraysandmaps;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
-
 
 /**
  * A few problems on using HashMaps.
@@ -25,6 +25,37 @@ public class MapProblems {
      * @return true if the array contains a duplicated element
      */
     public static boolean hasDuplicates(int[] input) {
+        // {1,2,1}
+        // n = 1
+        // i = 0,
+        //      j = 2
+
+        // Solution
+        // Time Complexity: O(nˆ2)
+        // Space Complexity: O(1)
+//        for (int i = 0; i < input.length; i++) {
+//            for (int j = 0; j < input.length; j ++) {
+//                if (i == j) continue;
+//                if (input[i] == input[j]) return true;
+//            }
+//        }
+
+        // {1,2,1}
+        // i = 2, n = 1 -> {1=0,2=1,}
+
+
+        // Solution
+        // Time Complexity: O(n)
+        // Space Complexity: O(n)
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for (int index = 0; index < input.length; index++) {
+            Integer current = map.get(input[index]);
+            if (current != null) return true;
+
+            map.put(input[index], index);
+        }
+
         return false;
     }
 
@@ -42,6 +73,16 @@ public class MapProblems {
      * @return the duplicated nickname
      */
     public static String duplicateNicknames(String[] realNames, String[] nicknames) {
+        System.out.println(Arrays.toString(nicknames));
+        HashMap<String, String> map = new HashMap<>();
+
+        for (int index = 0; index < nicknames.length; index ++) {
+            System.out.println(map);
+            if (map.get(nicknames[index]) != null) return nicknames[index];
+
+            map.put(nicknames[index], realNames[index]);
+        }
+
         return null;
     }
 
@@ -62,7 +103,26 @@ public class MapProblems {
      * @return the score of the given hand
      */
     public static int computeScore(String hand) {
+        // needs to:
+        // - iterate/look through the cards in hand
+        // - track sum of points
+        // - track how many times you saw a card
+
         int score = 0;
+        HashMap<Character, Integer> map = new HashMap<>();
+
+        // "ABAA"
+        // 0 = A
+        for (int index = 0; index < hand.length(); index++) {
+            Character card = hand.charAt(index);
+            if (map.get(card) == null) map.put(card, 0); // replace this line with: map.putIfAbsent(card, 0);
+
+            Integer visitCount = map.get(card);
+            visitCount++;
+            map.put(card, visitCount);
+
+            score += visitCount;
+        }
 
         return score;
     }
