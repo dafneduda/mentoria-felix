@@ -5,12 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="465df95e-b313-49d7-810c-7df87a55aa87" name="Changes" comment="exercises ArrayList">
+      <change afterPath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/main/java/com/mentoria/twodarraysandmaps/ArrayWithMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/main/java/com/mentoria/twodarraysandmaps/FriendMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/main/java/com/mentoria/twodarraysandmaps/MapProblems.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/ArrayListFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/ArrayListFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/CodingBatPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/CodingBatPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/SomeTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/SomeTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/UsingStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/UsingStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/VariableScopeAndBreakExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/VariableScopeAndBreakExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/WhackABug.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/main/java/com/rhit/arraysandlists/WhackABug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/test/java/ArrayListFunctionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/ArraysAndLists/src/test/java/ArrayListFunctionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/JavaIntro/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/JavaIntro/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/JavaIntro/src/main/java/com/rhit/javaintro/ConditionalExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/JavaIntro/src/main/java/com/rhit/javaintro/ConditionalExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/JavaIntro/src/main/java/com/rhit/javaintro/HelloPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/JavaIntro/src/main/java/com/rhit/javaintro/HelloPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/JavaIntro/src/main/java/com/rhit/javaintro/LoopProbs.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/JavaIntro/src/main/java/com/rhit/javaintro/LoopProbs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/JavaIntro/src/main/java/com/rhit/javaintro/StringProbs.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/JavaIntro/src/main/java/com/rhit/javaintro/StringProbs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/JavaIntro/src/test/java/LoopProbsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/JavaIntro/src/test/java/LoopProbsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/JavaIntro/src/test/java/StringProbsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/JavaIntro/src/test/java/StringProbsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/main/java/com/dafneduda/twodarraysandmaps/ArrayWithMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/main/java/com/dafneduda/twodarraysandmaps/FriendMapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/main/java/com/dafneduda/twodarraysandmaps/MapProblems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/main/java/com/dafneduda/twodarraysandmaps/Two2DArrayProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/main/java/com/mentoria/twodarraysandmaps/Two2DArrayProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/main/java/com/dafneduda/twodarraysandmaps/WhackABug.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/main/java/com/mentoria/twodarraysandmaps/WhackABug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/test/java/MapProblemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/test/java/MapProblemsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/test/java/Two2DArrayProblemsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/test/java/Two2DArrayProblemsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/HW1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/HW1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/HW1/src/main/java/com/rhit/hw1/HW1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/HW1/src/main/java/com/rhit/hw1/HW1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework/HW1/src/test/java/HW1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Homework/HW1/src/test/java/HW1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <list id="d3b0fc77-9f20-4c3b-add8-24b09a542027" name="Changes by jbfelix" comment="Changes by jbfelix">
-      <change beforePath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/main/java/com/dafneduda/twodarraysandmaps/FriendMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/main/java/com/dafneduda/twodarraysandmaps/FriendMapDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/main/java/com/dafneduda/twodarraysandmaps/MapProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassMaterials/TwoDArraysAndMaps/src/main/java/com/dafneduda/twodarraysandmaps/MapProblems.java" afterDir="false" />
-    </list>
+    <list id="d3b0fc77-9f20-4c3b-add8-24b09a542027" name="Changes by jbfelix" comment="Changes by jbfelix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +65,11 @@
     &quot;accountId&quot;: &quot;6c6a0883-7567-4133-9fd4-c3cfee09a6d6&quot;
   }
 }</component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="Two2DArrayProblemsTest.testCount4s" />
+    </enabled-run-configurations>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -66,9 +98,15 @@
     "JUnit.ArrayListFunctionsTest.testArraylistOfAs.executor": "Run",
     "JUnit.ArrayListFunctionsTest.testInsertIntoSorted.executor": "Run",
     "JUnit.ArrayListFunctionsTest.testRemoveLongStrings.executor": "Run",
+    "JUnit.MapProblemsTest.executor": "Run",
+    "JUnit.MapProblemsTest.testCanTravelTo.executor": "Run",
+    "JUnit.MapProblemsTest.testComputeLetterFrequencies.executor": "Run",
     "JUnit.MapProblemsTest.testComputeScore.executor": "Run",
     "JUnit.MapProblemsTest.testDuplicateNicknames.executor": "Run",
     "JUnit.MapProblemsTest.testHasDuplicates.executor": "Run",
+    "JUnit.Two2DArrayProblemsTest.executor": "Run",
+    "JUnit.Two2DArrayProblemsTest.testCount4s.executor": "Debug",
+    "JUnit.Two2DArrayProblemsTest.testStringsToCharArrays.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -80,7 +118,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -100,58 +138,50 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MapProblemsTest.testComputeScore">
-    <configuration name="FriendMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dafneduda.twodarraysandmaps.FriendMapDemo" />
-      <module name="TwoDArraysAndMaps" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dafneduda.twodarraysandmaps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhackABug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rhit.arraysandlists.WhackABug" />
-      <module name="ArraysAndLists" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.rhit.arraysandlists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapProblemsTest.testComputeScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Two2DArrayProblemsTest">
+    <configuration name="MapProblemsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TwoDArraysAndMaps" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MapProblemsTest" />
-      <option name="METHOD_NAME" value="testComputeScore" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapProblemsTest.testCanTravelTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TwoDArraysAndMaps" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MapProblemsTest" />
+      <option name="METHOD_NAME" value="testCanTravelTo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapProblemsTest.testDuplicateNicknames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Two2DArrayProblemsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TwoDArraysAndMaps" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MapProblemsTest" />
-      <option name="METHOD_NAME" value="testDuplicateNicknames" />
+      <option name="MAIN_CLASS_NAME" value="Two2DArrayProblemsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Two2DArrayProblemsTest.testCount4s" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TwoDArraysAndMaps" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Two2DArrayProblemsTest" />
+      <option name="METHOD_NAME" value="testCount4s" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapProblemsTest.testHasDuplicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Two2DArrayProblemsTest.testStringsToCharArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TwoDArraysAndMaps" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MapProblemsTest" />
-      <option name="METHOD_NAME" value="testHasDuplicates" />
+      <option name="MAIN_CLASS_NAME" value="Two2DArrayProblemsTest" />
+      <option name="METHOD_NAME" value="testStringsToCharArrays" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MapProblemsTest.testComputeScore" />
-        <item itemvalue="JUnit.MapProblemsTest.testDuplicateNicknames" />
-        <item itemvalue="JUnit.MapProblemsTest.testHasDuplicates" />
-        <item itemvalue="Application.FriendMapDemo" />
-        <item itemvalue="Application.WhackABug" />
+        <item itemvalue="JUnit.Two2DArrayProblemsTest" />
+        <item itemvalue="JUnit.Two2DArrayProblemsTest.testStringsToCharArrays" />
+        <item itemvalue="JUnit.Two2DArrayProblemsTest.testCount4s" />
+        <item itemvalue="JUnit.MapProblemsTest" />
+        <item itemvalue="JUnit.MapProblemsTest.testCanTravelTo" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +219,13 @@
       <workItem from="1726100933708" duration="24938000" />
       <workItem from="1727141699244" duration="819000" />
       <workItem from="1727144411370" duration="483000" />
-      <workItem from="1727962244549" duration="17534000" />
+      <workItem from="1727962244549" duration="22166000" />
+      <workItem from="1728350333755" duration="570000" />
+      <workItem from="1728567481590" duration="1023000" />
+      <workItem from="1728569940167" duration="12555000" />
+      <workItem from="1728653936907" duration="2971000" />
+      <workItem from="1729019651640" duration="32000" />
+      <workItem from="1729091185639" duration="7682000" />
     </task>
     <task id="LOCAL-00001" summary="exercises ArrayList">
       <option name="closed" value="true" />

@@ -2,9 +2,9 @@ package com.rhit.arraysandlists;
 
 public class VariableScopeAndBreakExamples {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        // Variable Scope: uncomment this and remove declarations below to allow this code to run
+    // Variable Scope: uncomment this and remove declarations below to allow this code to run
 //		String ans;
 //		int x = 1;
 //		if ( x == 0) {
@@ -14,16 +14,16 @@ public class VariableScopeAndBreakExamples {
 //		}
 //		System.out.println(  ans  );
 
-        //  break; statement allows you to exit the current loop
-        int y = 0;
-        while (true) {
-            if (y == 10) {
-                break;
-            }
-            System.out.println(y);
-            y++;
-        }
-
-        // TwoDArraysAndMaps
+    //  break; statement allows you to exit the current loop
+    int y = 0;
+    while (true) {
+      if (y == 10) {
+        break;
+      }
+      System.out.println(y);
+      y++;
     }
+
+    // TwoDArraysAndMaps
+  }
 }
