@@ -47,13 +47,20 @@ public class Two2DArrayProblems {
   public static char[][] stringsToCharArrays(String[] input) {
     char[][] array2D = new char[input.length][input[0].length()];
 
+    // O(N)
 //    for (int i = 0; i < input.length; i++) {
+    // O(N)
 //      for (int j = 0; j < input[i].length(); j++) {
+    // O(1)
+    // = O(Nˆ2)
 //        array2D[i][j] = input[i].charAt(j);
 //      }
 //    }
 
-    for (int i=0; i < input.length; i++){
+    // O(N)
+    for (int i = 0; i < input.length; i++) {
+      // O(N)
+      // = O(Nˆ2)
       array2D[i] = input[i].toCharArray();
     }
     return array2D;
@@ -73,6 +80,14 @@ public class Two2DArrayProblems {
    * @return true of the array is symmetric, false otherwise.
    */
   public static boolean isSymmetric(int[][] input) {
+
+    for (int i = 0; i < input.length; i++) {
+      for (int j = 0; j < input[i].length; j++) {
+        if (input[i][j] != input[j][i]) {
+          return false;
+        }
+      }
+    }
     return true;
   }
 
@@ -98,11 +113,71 @@ public class Two2DArrayProblems {
    * <br> .@..
    * <p>
    * returns 3 (north, north, east)
-   *
+   *`12
    * @param input
    * @return the shortest Manhattan distance from the person to an exit.
    */
   public static int distanceToExit(char[][] input) {
-    return 0;
+    // map
+    // @... = abs(0-1) + abs(0-1)
+    // .X.X
+    //
+    // - find the @
+    // - find all X
+    //  - for each X, calculate distance
+    //  - if distance is lowest, save it
+    // - return shortest distance
+
+    int personRow = -1;
+    int personColumn = -1;
+
+    back:
+    for (int i = 0; i < input.length; i++) {
+      for (int j = 0; j < input[i].length; j++) {
+        if (input[i][j] == '@') {
+          personRow = i;
+          personColumn = j;
+          break back;
+        }
+      }
+    }
+
+    int minDistance = Integer.MAX_VALUE;
+    for (int i = 0; i < input.length; i++) {
+      for (int j = 0; j < input[i].length; j++) {
+        if (input[i][j] == 'X') {
+          int distance = Math.abs(i - personRow) + Math.abs(j - personColumn);
+//          if (distance < minDistance) minDistance = distance;
+          minDistance = Math.min(minDistance, distance);
+        }
+      }
+    }
+
+    return minDistance;
+
+//    Chat-GPT solution:
+//    int personRow = -1, personColumn = -1;
+//    List<int[]> exits = new ArrayList<>();
+//
+//    // Single pass to collect all exits and find the person
+//    for (int i = 0; i < input.length; i++) {
+//      for (int j = 0; j < input[i].length; j++) {
+//        if (input[i][j] == '@') {
+//          personRow = i;
+//          personColumn = j;
+//        } else if (input[i][j] == 'X') {
+//          exits.add(new int[] {i, j});
+//        }
+//      }
+//    }
+//
+//    // Calculate the minimum distance after locating the person
+//    int minDistance = Integer.MAX_VALUE;
+//    for (int[] exit : exits) {
+//      int distance = Math.abs(exit[0] - personRow) + Math.abs(exit[1] - personColumn);
+//      minDistance = Math.min(minDistance, distance);
+//    }
+//
+//    return minDistance;
   }
 }
